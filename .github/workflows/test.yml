@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       clean_cache:
-        description: 'Clear caches'
+        description: 'Clear caches' 
         required: false
         type: boolean
   push:
